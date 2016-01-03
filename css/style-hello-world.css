@@ -56,19 +56,22 @@ a:link {
         
 /* unvisited link */
  a:link {
-        color: lightpink;
+        color: white;
         text-transform: uppercase;}
 
 /* visited link */
 a:visited {
-        color:white;
+        color:whitesmoke;
         text-transform: uppercase;}
 
 /* mouse over link */
 a:hover {
-    color:white;
+    color:lightpink;
 }
 
+.border-top:hover {
+    opacity: 0.5;
+}
 
 .first {
     width: 100%;
@@ -106,6 +109,7 @@ a:hover {
     opacity: 0.5;
 }
 
+
 .floralwreath {
     padding-top: 4em;
 }
@@ -138,3 +142,63 @@ a:hover {
 .background {
     width: 100%;
 }
+
+
+
+
+
+
+/*-----------------------MEDIA QUERIES-------------------*/
+
+/*----------------TABLET---------------*/
+
+@media (max-width: 50em) {
+	
+	body{
+		background: #f0f0f0;
+		}
+	
+	article{
+		width: 95%;
+		padding: 0.5em;
+		}
+	
+	img{
+		display: block;
+		margin: 1em auto;
+		padding: 0;
+		max-width: 100%;
+		}
+}
+	
+/*-------------SMARTPHONE-----------*/
+
+@media (max-width: 30em) {
+	
+	body{
+		margin: auto 0;
+		background: #f0f0f0;
+		width: 100%;
+		font-size: 100%;
+		}
+
+	article{
+		width: 90%;
+		}
+	
+	h1{font-size: 2.9em}
+	
+	hgroup h2{font-size: 1.5em;
+		padding-top: 0.5em}
+	
+	blockquote{margin: 0;
+			line-height: 1.5em;}
+	
+	nav ul li{font-size: .75em;
+		margin: 10px}
+}
+
+
+    
+/*----------------------*/
+
