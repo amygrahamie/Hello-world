@@ -73,8 +73,8 @@ a:hover {
 
 .first {
     width: 100%;
-    border-top: 1.5px solid darkgray;
-    border-bottom: 1.5px solid darkgray;
+    border-top: 1.5px solid lightpink;
+    border-bottom: 1.5px solid lightpink;
     padding-top: 1.7em;
     padding-bottom: 1.7em;
     text-align: center;
@@ -94,6 +94,16 @@ a:hover {
     font-weight: 300;
     margin-right: 1em;
     margin-left: 1em;
+    font-size: 140%;
+}
+
+
+.third {
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+    text-emphasis: bold;
+    font-weight: 300;
     font-size: 140%;
 }
 
@@ -139,6 +149,7 @@ a:hover {
 
 .background {
     width: 100%;
+    padding-top: 2em;
 }
 
 .Portfolio {
@@ -154,10 +165,92 @@ a:hover {
     margin-top: 8em;
     
 }
-    
-    align-self: center;
+ 
+
+/*----------------------Polaroid------------------*/
+
+#container {
+	width: 600px; margin: 40px auto;
 }
 
+.gallery {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+ul.gallery li a {
+	float: left;
+	padding-right: .5em;
+    padding-left: .5em;
+	background: #eee;
+    padding-bottom: 1em;
+    padding-top: .5em;
+}
+
+
+
+/* By default, we tilt all our images -2 degrees */
+ul.gallery a {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+}
+ 
+/* Rotate all even images 2 degrees */
+ul.gallery li:nth-child(even) a {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+}
+ 
+/* Don't rotate every third image, but offset its position */
+ul.gallery li:nth-child(3n) a {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -5px;
+}
+ 
+/* Rotate every fifth image by 5 degrees and offset it */
+ul.gallery li:nth-child(5n) a {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  position: relative;
+  right: 5px;
+}
+ 
+/* Keep default rotate for every eighth, but offset it */
+ul.gallery li:nth-child(8n) a {
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+ 
+/* Keep default rotate for every eleventh, but offset it */
+ul.gallery li:nth-child(11n) a {
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+ul.gallery li a:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+
+/* Add drop shadows and smooth out the transition (Safari only) */
+ul.gallery li a {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+ 
+/* On hover, darken the shadows a bit */
+ul.gallery li a {
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
 
 
 /*-----------------------MEDIA QUERIES-------------------*/
