@@ -24,10 +24,10 @@ nav {
         position: absolute;
         top: 0;
         font-family: "orator std";
-    background-color: darkgray;
-    padding-top: .3em;
-    padding-bottom: .3em;
-    position: fixed;
+        background-color: darkgray;
+        padding-top: .5em;
+        padding-bottom: .3em;
+        position: fixed;
         }
 
 nav ul {
@@ -35,17 +35,14 @@ nav ul {
     }
     
     nav ul li {
-display: inline;
-margin: 17px;
-text-align: center;
-font-family: "orator std";
-
-        
-        
-}
+        display: inline;
+        margin: 20px;
+        text-align: center;
+        font-family: "orator std";
+        }
 
  li { display: inline;
-    }
+}
 
 
 
@@ -74,6 +71,7 @@ a:hover {
 
 
 .first {
+    width: 100%;
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgray;
     padding-top: 1.7em;
@@ -130,56 +128,3 @@ a:hover {
 }
 
 
-/*-----------------------MEDIA QUERIES-------------------*/
-
-/*----------------TABLET---------------*/
-
-@media (max-width: 50em) {
-	
-	body{
-		background: #f0f0f0;
-		}
-	
-	article{
-		width: 95%;
-		padding: 0.5em;
-		}
-	
-	img{
-		display: block;
-		margin: 1em auto;
-		padding: 0;
-		max-width: 100%;
-		}
-}
-	
-/*-------------SMARTPHONE-----------*/
-
-@media (max-width: 30em) {
-	
-	body{
-		margin: auto 0;
-		background: #f0f0f0;
-		width: 100%;
-		font-size: 110%;
-		}
-
-	article{
-		width: 90%;
-		}
-	
-	h1{font-size: 2.9em}
-	
-	hgroup h2{font-size: 1.5em;
-		padding-top: 0.5em}
-	
-	blockquote{margin: 0;
-			line-height: 1.5em;}
-	
-	nav ul li{font-size: .75em;
-		margin: 10px}
-}
-
-
-    
-/*----------------------*/
