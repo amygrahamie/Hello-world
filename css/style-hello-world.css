@@ -94,8 +94,8 @@ a:hover {
     text-emphasis: bold;
     font-style: italic;
     font-weight: 300;
-    margin-right: 3em;
-    margin-left: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
     margin-bottom: 2em;
     font-size: 140%;
 }
@@ -123,8 +123,8 @@ a:hover {
 
 .boxed {
   border: 2px solid lightpink;
-    margin-right: 5em;
-    margin-left: 5em;
+    margin-right: 4em;
+    margin-left: 4em;
     padding-left: 4em;
     padding-right: 4em;
     margin-bottom: 4em;
