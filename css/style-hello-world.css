@@ -8,6 +8,7 @@ line-height: 1cm;
 body { 
             width: 100%;
             min-height: 320px;
+            max-width: 900px;
             font-size: 1.5em;
             font-family: "cheddar jack" 
             margin: auto;
