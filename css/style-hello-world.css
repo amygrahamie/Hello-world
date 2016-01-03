@@ -72,13 +72,12 @@ a:hover {
 
 .first {
     width: 100%;
-    border-top: 1px solid darkgray;
-    border-bottom: 1px solid darkgray;
+    border-top: 1.5px solid darkgray;
+    border-bottom: 1.5px solid darkgray;
     padding-top: 1.7em;
     padding-bottom: 1.7em;
-    text-transform: uppercase;
     text-align: center;
-    font-family: "parabola";
+    font-family: "Besom";
     font-size: 150%;
     letter-spacing: 1px;
 }
@@ -95,6 +94,12 @@ a:hover {
     margin-right: 1em;
     margin-left: 1em;
     font-size: 140%;
+}
+
+.social {
+    font-family: "Besom";
+    font-size: 180%;
+    margin-top: 1em;
 }
 
 .floralwreath {
@@ -119,8 +124,8 @@ a:hover {
 
 .boxed {
   border: 2px solid lightpink;
-    margin-right: 4em;
-    margin-left: 4em;
+    margin-right: 5em;
+    margin-left: 5em;
     padding-left: 4em;
     padding-right: 4em;
     margin-bottom: 2em;
