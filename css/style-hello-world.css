@@ -16,8 +16,6 @@ body {
            }
 
 
-
-
 nav {   
         width: 100%;
         position: absolute;
@@ -136,15 +134,29 @@ a:hover {
     margin-left: 5em;
     padding-left: 4em;
     padding-right: 4em;
-    margin-bottom: 2em;
+    margin-bottom: .3em;
 }
 
 .background {
     width: 100%;
 }
 
+.Portfolio {
+    font-family: "Besom";
+    font-size: 200%;
+}
 
-
+.leaf {
+    z-index: 10;
+    left: 0;
+    position: absolute;
+    margin-left: 1.2em;
+    margin-top: 8em;
+    
+}
+    
+    align-self: center;
+}
 
 
 
