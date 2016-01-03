@@ -19,7 +19,7 @@ body {
 
 
 
-nav {   width: 100%;
+nav {   width: 85%;
         position: absolute;
         top: 0;
         font-family: "orator std";
@@ -27,6 +27,7 @@ nav {   width: 100%;
         padding-top: .5em;
         padding-bottom: .3em;
         position: fixed;
+        text-align: center;
         }
 
 nav ul {
@@ -118,12 +119,13 @@ a:hover {
 
 .boxed {
   border: 2px solid lightpink;
-    margin-right: 4em;
-    margin-left: 4em;
-    padding-left: 4em;
-    padding-right: 4em;
-    margin-bottom: 4em;
-
+    margin-right: 2em;
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
 }
 
-
+.background {
+    width: 100%;
+}
