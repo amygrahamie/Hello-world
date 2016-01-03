@@ -102,6 +102,10 @@ a:hover {
     margin-top: 1em;
 }
 
+.socialimages:hover {
+    opacity: 0.5;
+}
+
 .floralwreath {
     padding-top: 4em;
 }
