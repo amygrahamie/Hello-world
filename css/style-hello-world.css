@@ -217,7 +217,7 @@ a:hover {
 
 
 
-.gallery li a{
+ul.gallery li a{
 	float: left;
 	padding-right: .5em;
     padding-left: .5em;
