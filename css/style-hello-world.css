@@ -27,6 +27,7 @@ nav {
         position: fixed;
         text-align: center;
         z-index: 10;
+        opacity: 0.9;
         }
 
 nav ul {
@@ -214,12 +215,15 @@ a:hover {
     margin-right: 1em;
 }
 
-ul.gallery li a {
+
+
+.gallery li a{
 	float: left;
 	padding-right: .5em;
     padding-left: .5em;
 	background: #eee;
     padding-top: .5em;
+    background-image: no-repeat;
 }
 
 
