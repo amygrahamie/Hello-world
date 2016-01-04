@@ -26,6 +26,7 @@ nav {
         padding-bottom: .3em;
         position: fixed;
         text-align: center;
+        z-index: 10;
         }
 
 nav ul {
@@ -67,9 +68,27 @@ a:hover {
     color:lightpink;
 }
 
-.border-top:hover {
-    opacity: 0.5;
+
+
+/*-----POLAROID LINKS------*/
+.gallery a:link {
+            color: darkgray;
+            font-family: "Besom";
 }
+
+
+.gallery a:visited{
+            color: darkgray;
+            font-family: "Besom";
+}
+
+.gallery a:hover {
+            color: hotpink;
+            font-family: "Besom";
+}
+
+
+
 
 .first {
     width: 100%;
@@ -112,10 +131,12 @@ a:hover {
     font-family: "Besom";
     font-size: 180%;
     margin-top: 1em;
+    z-index: 15;
 }
 
 .socialimages:hover {
     opacity: 0.5;
+    z-index: 15;
 }
 
 
@@ -150,7 +171,7 @@ a:hover {
 
 .background {
     width: 100%;
-    padding-top: 2em;
+    z-index: -2;
 }
 
 .Portfolio {
@@ -164,8 +185,19 @@ a:hover {
     position: absolute;
     margin-left: 1.2em;
     margin-top: 8em;
-    
 }
+
+
+.frame { 
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    margin-left: 21.5em;
+    margin-top: 20em;
+    padding-top: 20em;
+    
+}    
+
  
 
 /*----------------------Polaroid------------------*/
