@@ -119,12 +119,14 @@ a:hover {
 
 
 .third {
-    padding-left: 4em;
-    padding-right: 4em;
-    text-align: center;
+    padding-left: 5em;
+    margin-left: 2em;
+    padding-right: 5em;
+    margin-right: 2em;
+    text-align: left;
     text-emphasis: bold;
-    font-weight: 300;
-    font-size: 140%;
+    font-weight: 200;
+    font-family: "Big Caslon";
 }
 
 .social {
@@ -138,6 +140,10 @@ a:hover {
 .socialimages:hover {
     opacity: 0.5;
     z-index: 15;
+}
+
+.socialimages {
+
 }
 
 
@@ -186,7 +192,7 @@ a:hover {
     left: 0;
     position: absolute;
     margin-left: 1.2em;
-    margin-top: 8em;
+    margin-top: 6em;
 }
 
 
@@ -195,9 +201,8 @@ a:hover {
     left: 0;
     position: absolute;
     margin-left: 21.5em;
-    margin-top: 20em;
-    padding-top: 20em;
-    padding-bottom:2em;
+    padding-bottom: 5em;
+    padding-bottom: 3em;
     
 }    
 
