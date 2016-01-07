@@ -10,7 +10,7 @@ body {
             width: 100%;
             min-height: 320px;
             font-size: 1.5em;
-            font-family: "cheddar jack", "Helvetica";
+            font-family: "cheddar jack", "Rochester";
             color: darkgray;
             line-height: 2em;
            }
@@ -74,18 +74,18 @@ a:hover {
 /*-----POLAROID LINKS------*/
 .gallery a:link {
             color: darkgray;
-            font-family: "Besom", "parabolaregular";
+            font-family: "Besom", "parabola", "Rochester";
 }
 
 
 .gallery a:visited{
             color: darkgray;
-            font-family: "Besom", "parabolaregular";
+            font-family: "Besom", "parabola", "Rochester";
 }
 
 .gallery a:hover {
             color: hotpink;
-            font-family: "Besom", "parabolaregular" ;
+            font-family: "Besom", "parabola", "Rochester" ;
 }
 
 
@@ -98,7 +98,7 @@ a:hover {
     padding-top: 1.7em;
     padding-bottom: 1.7em;
     text-align: center;
-    font-family: "Besom", "parabolaregular";
+    font-family: "Besom", "parabola", "Rochester";
     font-size: 150%;
     letter-spacing: 1px;
 }
@@ -132,7 +132,7 @@ a:hover {
 
 .social {
     color: darkgray;
-    font-family: "Besom", "parabolaregular";
+    font-family: "Besom", "parabola", "Rochester";
     font-size: 180%;
     margin-top: 1em;
     z-index: 15;
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .Portfolio {
-    font-family: "Besom", "parabola";
+    font-family: "Besom", "parabola", "Rochester";
     font-size: 200%;
 }
 
