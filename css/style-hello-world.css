@@ -75,17 +75,20 @@ a:hover {
 .gallery a:link {
             color: darkgray;
             font-family: 'Besom', 'parabola', 'Rochester';
+            text-transform: lowercase;
 }
 
 
 .gallery a:visited{
             color: darkgray;
             font-family: 'Besom', 'parabola', 'Rochester';
+            text-transform: lowercase;
 }
 
 .gallery a:hover {
             color: hotpink;
-            font-family: 'Besom', 'parabola', 'Rochester' ;
+            font-family: 'Besom', 'parabola', 'Rochester';
+            text-transform: lowercase;
 }
 
 
@@ -126,7 +129,7 @@ a:hover {
     text-align: left;
     text-emphasis: bold;
     font-weight: 200;
-    font-family: 'Big Caslon', 'Arapey';
+    font-family: 'Rochester';
     font-size: 80%;
 }
 
@@ -136,7 +139,7 @@ a:hover {
     font-size: 85%;
     margin-top: 1em;
     z-index: 15;
-    text-decoration: none;
+    text-transform: none;
 }
 
 .socialimages:hover {
