@@ -10,7 +10,7 @@ body {
             width: 100%;
             min-height: 320px;
             font-size: 1.5em;
-            font-family: "cheddar jack";
+            font-family: "cheddar jack", "Helvetica";
             color: darkgray;
             line-height: 2em;
            }
@@ -20,7 +20,7 @@ nav {
         width: 100%;
         position: absolute;
         top: 0;
-        font-family: "orator std";
+        font-family: "orator std", "Helvetica";
         background-color: darkgray;
         padding-top: .5em;
         padding-bottom: .3em;
@@ -38,7 +38,7 @@ nav ul {
         display: inline;
         margin: 20px;
         text-align: center;
-        font-family: "orator std";
+        font-family: "orator std", "Helvetica";
         }
 
  li { display: inline;
@@ -74,18 +74,18 @@ a:hover {
 /*-----POLAROID LINKS------*/
 .gallery a:link {
             color: darkgray;
-            font-family: "Besom";
+            font-family: "Besom", "parabolaregular";
 }
 
 
 .gallery a:visited{
             color: darkgray;
-            font-family: "Besom";
+            font-family: "Besom", "parabolaregular";
 }
 
 .gallery a:hover {
             color: hotpink;
-            font-family: "Besom";
+            font-family: "Besom", "parabolaregular" ;
 }
 
 
@@ -98,7 +98,7 @@ a:hover {
     padding-top: 1.7em;
     padding-bottom: 1.7em;
     text-align: center;
-    font-family: "Besom";
+    font-family: "Besom", "parabolaregular";
     font-size: 150%;
     letter-spacing: 1px;
 }
@@ -126,13 +126,13 @@ a:hover {
     text-align: left;
     text-emphasis: bold;
     font-weight: 200;
-    font-family: "Big Caslon";
+    font-family: "Big Caslon", "Arapey";
     font-size: 80%;
 }
 
 .social {
     color: darkgray;
-    font-family: "Besom";
+    font-family: "Besom", "parabolaregular";
     font-size: 180%;
     margin-top: 1em;
     z-index: 15;
@@ -143,9 +143,6 @@ a:hover {
     z-index: 15;
 }
 
-.socialimages {
-
-}
 
 
 .floralwreath {
@@ -184,7 +181,7 @@ a:hover {
 }
 
 .Portfolio {
-    font-family: "Besom";
+    font-family: "Besom", "parabolaregular";
     font-size: 200%;
 }
 
@@ -352,4 +349,49 @@ ul.gallery li a {
 
     
 /*----------------------*/
+
+@font-face {
+    font-family: 'parabolaregular';
+    src: url('parabola-regular-webfont.eot');
+    src: url('parabola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('parabola-regular-webfont.woff2') format('woff2'),
+         url('parabola-regular-webfont.woff') format('woff'),
+         url('parabola-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Besom";
+    src: url{'Besom.ttf');}
+}
+
+@font-face {
+    font-family: "Besom";
+    src: url{'Besom.otf');}
+}
+
+
+@font-face {
+    font-family: "Cheddar Jack";
+    src: url{'cheddar jack.ttf');}
+}
+
+@font-face {
+    font-family: "Cheddar Jack";
+    src: url{'cheddar jack.otf');}
+}
+
+
+@font-face {
+    font-family: "orator std";
+    src: url{'orator std.ttf');}
+}
+
+@font-face {
+    font-family: "orator std";
+    src: url{'orator std.otf');}
+}
+
 
