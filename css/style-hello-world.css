@@ -136,7 +136,7 @@ a:hover {
 .social {
     color: darkgray;
     font-family: 'Besom', 'parabola', 'Rochester';
-    font-size: 85%;
+    font-size: 100%;
     margin-top: 1em;
     z-index: 15;
     text-transform: none;
