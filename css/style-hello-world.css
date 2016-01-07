@@ -133,14 +133,16 @@ a:hover {
 .social {
     color: darkgray;
     font-family: 'Besom', 'parabola', 'Rochester';
-    font-size: 70%;
+    font-size: 85%;
     margin-top: 1em;
     z-index: 15;
+    text-decoration: none;
 }
 
 .socialimages:hover {
     opacity: 0.5;
     z-index: 15;
+    
 }
 
 
