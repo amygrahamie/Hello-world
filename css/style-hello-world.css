@@ -136,10 +136,19 @@ a:hover {
 .social {
     color: darkgray;
     font-family: 'Besom', 'parabola', 'Rochester';
-    font-size: 100%;
-    margin-top: 1em;
+    font-size: 110%;
+    margin-top: 3em;
+    padding-top: 2em;
     z-index: 15;
     text-transform: none;
+}
+
+.socialtitle {
+    color: darkgray;
+    font-family: 'Besom', 'parabola', 'Rochester';
+    font-size: 110%;
+    text-transform: none;
+    padding-top: 9em;
 }
 
 .socialimages:hover {
@@ -177,12 +186,6 @@ a:hover {
     margin-bottom: .3em;
 }
 
-.background {
-    width: 100%;
-    position: relative;
-    z-index: -2;
-}
-
 .Portfolio {
     font-family: "Besom", 'parabola', 'Rochester';
     font-size: 200%;
@@ -202,7 +205,8 @@ a:hover {
     left: 0;
     position: absolute;
     margin-left: 21.5em;
-    padding-bottom: 5em;
+    padding-top: 9em;
+    margin-top: 7em;
     padding-bottom: 3em;
     
 }    
