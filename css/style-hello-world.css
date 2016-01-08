@@ -92,7 +92,11 @@ a:hover {
 }
 
 
-
+.copyright {
+    font-family: 'Helvetica';
+    text-decoration-color: lightpink;
+    font-size: 50%;
+}
 
 .first {
     width: 100%;
